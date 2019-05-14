@@ -20,9 +20,9 @@ Set to `Yes` to run all services for this application in [Fargate](https://aws.a
 
 Set to `Yes` to run all timers for this application in [Fargate](https://aws.amazon.com/fargate/).
 
-### IamPolicy
+### TaskRole
 
-Specify the ARN of a custom IAM policy to add the the Service's [Task Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html) at runtime.
+Specify the ARN of a custom ECS task role to add the the Service's [Task Role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html) at runtime.
 
 ### InternalDomains
 
